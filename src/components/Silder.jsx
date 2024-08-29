@@ -20,12 +20,12 @@ const Slider = () => {
         '--loader-bar-height': '1px'
       }}
     >
-          <div className='bg-cover object-cover' data-src="\src\assets\pic2.jpg" />
-     <div className='bg-cover object-cover' data-src="\src\assets\pic1.jpg" />
+          <div className='bg-cover object-cover' data-src=".\src\Image\pic2.jpg" />
+     <div className='bg-cover object-cover' data-src=".\src\Image\pic1.jpg" />
    
-     <div className='bg-cover object-cover' data-src="\src\assets\pic3.jpg" />
-     <div className='bg-cover object-cover' data-src="\src\assets\pic4.jpg" />
-     <div className='bg-cover object-cover' data-src="\src\assets\pic5.jpg" />
+     <div className='bg-cover object-cover' data-src=".\src\Image\pic3.jpg" />
+     <div className='bg-cover object-cover' data-src=".\src\Image\pic4.jpg" />
+     <div className='bg-cover object-cover' data-src=".\src\Image\pic5.jpg" />
       
     </AwesomeSlider>
   );
