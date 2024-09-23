@@ -1,6 +1,11 @@
 import React from 'react';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css'; // Import AwesomeSlider's default styles
+import Pic1 from '../assets/pic1.jpg';
+import Pic2 from '../assets/pic2.jpg';
+import Pic3 from '../assets/pic3.jpg';
+import Pic4 from '../assets/pic4.jpg';
+import Pic5 from '../assets/pic5.jpg';
 const Slider = () => {
   return (
     <AwesomeSlider
@@ -20,12 +25,12 @@ const Slider = () => {
         '--loader-bar-height': '1px'
       }}
     >
-          <div className='bg-cover object-cover' data-src=".\src\Image\pic2.jpg" />
-     <div className='bg-cover object-cover' data-src=".\src\Image\pic1.jpg" />
+          <div className='bg-cover object-cover' data-src={Pic2} />
+     <div className='bg-cover object-cover' data-src={Pic1} />
    
-     <div className='bg-cover object-cover' data-src=".\src\Image\pic3.jpg" />
-     <div className='bg-cover object-cover' data-src=".\src\Image\pic4.jpg" />
-     <div className='bg-cover object-cover' data-src=".\src\Image\pic5.jpg" />
+     <div className='bg-cover object-cover' data-src={Pic3} />
+     <div className='bg-cover object-cover' data-src= {Pic4}/>
+     <div className='bg-cover object-cover' data-src= {Pic5} />
       
     </AwesomeSlider>
   );
